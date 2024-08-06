@@ -64,6 +64,9 @@ img#mock {
     src: url('Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype'); 
 }
 @media (max-width: 768px) {
+    body {
+        width: 375px;
+    }
     section {
         margin-left: 20px;
     }
@@ -72,7 +75,7 @@ img#mock {
         width: 370px;
     }
     img#mock {
-    width: 80%;
+    width: 95%;
     }
     button {
         position: absolute;
