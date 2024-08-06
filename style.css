@@ -63,7 +63,7 @@ img#mock {
     font-family: 'open';
     src: url('Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype'); 
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
     section {
         margin-left: 20px;
     }
@@ -72,7 +72,7 @@ img#mock {
         width: 370px;
     }
     img#mock {
-    width: 70%;
+    width: 80%;
     }
     button {
         position: absolute;
