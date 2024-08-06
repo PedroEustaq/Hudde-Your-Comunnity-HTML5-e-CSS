@@ -53,6 +53,33 @@ div {
     flex-flow: column nowrap;
     justify-content: space-around;
 }
+.fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .slide-in {
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: slideIn ease-out 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 img#mock {
 }
 @font-face {
