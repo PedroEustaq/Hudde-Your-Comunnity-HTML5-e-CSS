@@ -63,7 +63,7 @@ img#mock {
     font-family: 'open';
     src: url('Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype'); 
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     section {
         margin-left: 20px;
     }
