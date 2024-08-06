@@ -65,7 +65,6 @@ img#mock {
 }
 @media (max-width: 768px) {
     body {
-        width: 375px;
     }
     section {
         margin-left: 20px;
